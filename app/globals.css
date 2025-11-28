@@ -1,26 +1,67 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --sand: #e6e5e0;
+  --beige: #d0c09e;
+  --ocher: #dbbb5f;
+  --gold: #dfb011;
+  --ink: #1f2630;
+  --black: #000000;
+  --text: #141414;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-sand: var(--sand);
+  --color-beige: var(--beige);
+  --color-ocher: var(--ocher);
+  --color-gold: var(--gold);
+  --color-ink: var(--ink);
+  --color-black: var(--black);
+  --font-sans: var(--font-body);
+  --font-heading: var(--font-heading);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--sand);
+  color: var(--text);
+  font-family: var(--font-body), system-ui, -apple-system, sans-serif;
+  line-height: 1.6;
+}
+
+.font-heading {
+  font-family: var(--font-heading), "Times New Roman", serif;
+}
+
+.font-body {
+  font-family: var(--font-body), system-ui, -apple-system, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--gold) 70%, white);
+  color: var(--black);
+}
+
+.noise-bg {
+  background-image: linear-gradient(
+      115deg,
+      color-mix(in srgb, var(--ink) 5%, transparent) 0%,
+      transparent 25%,
+      color-mix(in srgb, var(--beige) 8%, transparent) 50%,
+      transparent 75%,
+      color-mix(in srgb, var(--ink) 4%, transparent) 100%
+    ),
+    radial-gradient(circle at 10% 10%, rgba(0, 0, 0, 0.04), transparent 25%),
+    radial-gradient(circle at 80% 30%, rgba(0, 0, 0, 0.035), transparent 30%),
+    radial-gradient(circle at 50% 70%, rgba(0, 0, 0, 0.03), transparent 28%);
+}
+
+.card-shadow {
+  box-shadow:
+    0 18px 40px rgba(0, 0, 0, 0.08),
+    0 8px 18px rgba(0, 0, 0, 0.05);
 }
