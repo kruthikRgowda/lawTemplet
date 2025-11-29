@@ -62,26 +62,26 @@ const practiceAreas = [
 
 const team = [
   {
-    name: "Ian Savage",
-    role: "Managing Partner",
+    name: "RaviShankar Kandhi",
+    role: "BCom, LLB, FCS",
     image:
       "https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&fit=crop&w=800&q=80",
   },
   {
-    name: "Michael Oykhman",
-    role: "Trial Lawyer",
+    name: "Srinivas",
+    role: "BCom, LLB",
     image:
       "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=800&q=80",
   },
   {
-    name: "Ryan Patmore",
-    role: "Corporate Counsel",
+    name: "Nagimani",
+    role: "BCom, LLB",
     image:
       "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=800&q=80",
   },
   {
-    name: "Ava Carter",
-    role: "Litigation Specialist",
+    name: "Kiran",
+    role: "BCom, LLB",
     image:
       "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=800&q=80",
   },
