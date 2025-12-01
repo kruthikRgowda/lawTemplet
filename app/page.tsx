@@ -127,7 +127,7 @@ export default function Home() {
             <div className="relative order-1 lg:order-2 flex items-center px-8 lg:px-16 py-12">
               {/* Large decorative text in background */}
               <div className="absolute inset-0 flex items-center justify-center opacity-[0.03] pointer-events-none overflow-hidden">
-                <span className="text-[20rem] font-heading font-bold text-[var(--ink)]">01</span>
+                <span className="text-[20rem] font-heading font-bold text-[var(--ink)]">18</span>
               </div>
 
               <div className="relative z-10 space-y-6 max-w-xl">
@@ -193,6 +193,7 @@ export default function Home() {
             eyebrow="Practice Areas"
             title="Strategic counsel for sophisticated matters"
             subtitle="We operate across industries with courtroom-tested litigators and pragmatic advisors."
+            theme="dark"
           />
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {practiceAreas.map((area) => (

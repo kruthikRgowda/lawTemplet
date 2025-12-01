@@ -8,10 +8,10 @@ const contactItems = [
 ];
 
 const socials = [
-  { label: "LinkedIn", href: "https://www.linkedin.com" },
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/shwetha-ravishankar-bangalore" },
   { label: "Twitter", href: "https://x.com" },
-  { label: "Facebook", href: "https://www.facebook.com" },
-  { label: "Instagram", href: "https://www.instagram.com" },
+  { label: "Facebook", href: "https://www.facebook.com/share/1AebAoBe73/" },
+  { label: "Instagram", href: "https://www.instagram.com/advocate.shwetharavishankar?igsh=cm8zdHM1YmJqbHZy" },
 ];
 
 export default function Footer() {
